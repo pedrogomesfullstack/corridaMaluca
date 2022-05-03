@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../assets/background/fundo\ mato.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.introducao {
+  background-image: url(../assets/background/fundo\ leitura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+
+  margin-right: 25px;
+  width: 50em;
+}
+h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.btn {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn > button {
+  background: rgb(100, 237, 102);
+  color: white;
+  text-transform: uppercase;
+  border: 2px;
+  border-radius: 15px;
+  padding: 15px;
+}
