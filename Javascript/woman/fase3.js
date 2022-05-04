@@ -17,7 +17,7 @@ function answer() {
     if (option.toLowerCase() == "d") {
       alert("VOCÊ ACERTOU, PROXIMA PERGUNTA !");
       tentativaAtual = maximoTentativas;
-      window.location.href=''
+      window.location.href='../../html/final.html'
     } else if (tentativaAtual == 1) {
       alert("VOCÊ ERROU, SÓ TÊM " + tentativaAtual + " CHANCE!");
       tentativaAtual = tentativaAtual;
