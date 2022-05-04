@@ -17,7 +17,7 @@ function answer() {
     if (option.toLowerCase() == "b") {
       alert("VOCÊ ACERTOU, PROXIMA PERGUNTA !");
       tentativaAtual = maximoTentativas;
-      window.location.href='../../fase/etapa3/penelopep3.html'
+      window.location.href='../../Fase/etapa3/penelopep3.html'
     } else if (tentativaAtual == 1) {
       alert("VOCÊ ERROU, SÓ TÊM " + tentativaAtual + " CHANCE!");
       tentativaAtual = tentativaAtual;
@@ -25,7 +25,7 @@ function answer() {
     } else {
       tentativaAtual == maximoTentativas;
       alert("HUUM NÃO FOI DESSA VEZ :(\nTente Novamente!");
-      window.location.href='../../fase/penelope.html'
+      window.location.href='../../Fase/penelope.html'
     }
 
     tentativaAtual++;

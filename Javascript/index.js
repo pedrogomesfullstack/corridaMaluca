@@ -17,7 +17,7 @@ function answer() {
     if (option.toLowerCase() == "a") {
       alert("VOCÊ ACERTOU, PROXIMA PERGUNTA !");
       tentativaAtual = maximoTentativas;
-      window.location.href='../../fase/etapa2/dickep2.html'
+      window.location.href='../../Fase/etapa2/dickep2.html'
     } else if (tentativaAtual == 1) {
       alert("VOCÊ ERROU, SÓ TÊM " + tentativaAtual + " CHANCE!");
       tentativaAtual = tentativaAtual;

@@ -25,7 +25,7 @@ function answer() {
     } else {
       tentativaAtual == maximoTentativas;
       alert("HUUM NÃO FOI DESSA VEZ :(\nTente Novamente!");
-      window.location.href='../../fase/penelope.html'
+      window.location.href='../../Fase/penelope.html'
     }
 
     tentativaAtual++;
