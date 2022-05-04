@@ -66,5 +66,12 @@ button {
 
     text-transform: uppercase;
     font-size: 25px;
+    transition:all 0.3s ease;
+  }
+
+  button:hover{
+      -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
   }
 
