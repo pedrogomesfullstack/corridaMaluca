@@ -17,7 +17,7 @@ function answer() {
     if (option.toLowerCase() == "a") {
       alert("VOCÊ ACERTOU, PROXIMA PERGUNTA !");
       tentativaAtual = maximoTentativas;
-      window.location.href='../../fase/etapa2/dickep2.html'
+      window.location.href=''
     } else if (tentativaAtual == 1) {
       alert("VOCÊ ERROU, SÓ TÊM " + tentativaAtual + " CHANCE!");
       tentativaAtual = tentativaAtual;
@@ -25,6 +25,7 @@ function answer() {
     } else {
       tentativaAtual == maximoTentativas;
       alert("HUUM NÃO FOI DESSA VEZ :(\nTente Novamente!");
+      window.location.href='../../fase/penelope.html'
     }
 
     tentativaAtual++;

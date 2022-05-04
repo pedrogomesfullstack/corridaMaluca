@@ -14,10 +14,10 @@ function answer() {
   }
 
   while (tentativaAtual <= maximoTentativas) {
-    if (option.toLowerCase() == "a") {
+    if (option.toLowerCase() == "c") {
       alert("VOCÊ ACERTOU, PROXIMA PERGUNTA !");
       tentativaAtual = maximoTentativas;
-      window.location.href='../../fase/etapa2/dickep2.html'
+      window.location.href='../../fase/etapa2/penelopep2.html'
     } else if (tentativaAtual == 1) {
       alert("VOCÊ ERROU, SÓ TÊM " + tentativaAtual + " CHANCE!");
       tentativaAtual = tentativaAtual;
@@ -25,6 +25,7 @@ function answer() {
     } else {
       tentativaAtual == maximoTentativas;
       alert("HUUM NÃO FOI DESSA VEZ :(\nTente Novamente!");
+      window.location.href='../../fase/dick.html'
     }
 
     tentativaAtual++;
